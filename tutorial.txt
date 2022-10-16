@@ -1,0 +1,42 @@
+
+expo init
+
+I installed yarn, replaced package-lock.json with yarn.lock by running "yarn" then deleting package-lock file
+
+npx expo install react-native-screens react-native-safe-area-context
+
+yarn add @react-navigation/native
+yarn add @react-navigation/native-stack
+yarn add @react-navigation/bottom-tabs
+yarn add @react-navigation/drawer
+npx expo install react-native-gesture-handler react-native-reanimated
+
+// add 'react-native-reanimated/plugin' to babel.config.js to use drawer
+
+yarn add @reduxjs/toolkit
+
+
+yarn add react-redux
+yarn add redux
+
+//Time to add redux
+    added app folder which contains store
+    added Provider so react can access it
+    created slicer and selector
+    home.js screen can access using selector and dispatch
+
+    changed entry point to index js through app.json
+
+
+//Implementing Firebase Auth
+    yarn add Firebase
+    made config file
+    created firebase project and added this project as web app, copy paste code provided on website
+    enable email password in authentification 
+
+    //ran into idb error
+        Solution: Added metro.config.js and copy pasted code in
+
+
+//Implemented Firestore
+    turned allow read and write
